@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 1440px;
+}
+
+.header {
+  background-color: rgb(32, 37, 49);
+  padding: 30px 165px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.logo {
+  margin-left: 0 auto;
+  width: 230px;
+}
+
+a {
+  font-family: 'Titillium Web';
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+  padding: 40px;
+}
+
+.menu {
+  display: inline-block;
+  color: rgb(235, 235, 235);
+  float: right;
+  margin-top: 12px;
+}
+
+.button {
+  display: inline-block;
+  font-family: 'Titillium Web';
+  background-color: rgb(103, 200, 131);
+  color: rgb(235, 235, 235);
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 45px;
+}
